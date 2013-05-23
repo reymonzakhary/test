@@ -10,7 +10,12 @@
 					<li><a href="index.php">Home</a></li>
 					<li><a href="venuetravel.php">Venue/Travel</a></li>
 					<li><a href="schedule.php">Schedule</a></li>
-					<li><a href="artists.php">Artists</a></li>
+					<li class="dropdown">
+						<a href="#">Artists <span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+							<li><a tabindex="-1" href="artists.php">All artists</a></li>
+						</ul><!-- dropdown menu -->
+					</li>
 					<li><a href="register.php">Register</a></li>
 				</ul><!-- nav -->
 			</section><!-- navbar -->
